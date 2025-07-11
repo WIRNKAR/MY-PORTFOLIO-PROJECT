@@ -9,12 +9,21 @@
   <link rel="stylesheet" href="style.css" />
   <link rel="icon" type="images/x-icon" href="banner.jpg">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Q6MTR36MC1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Q6MTR36MC1');
+</script>
 </head>
 <body data-bs-theme="light">
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg sticky-top shadow bg-white">
     <div class="container">
-      <a class="navbar-brand text-primary fw-bold" href="#">Meekness' Portfolio</a>
+      <a class="navbar-brand text-primary fw-bold" href="#"><marquee><strong>Meekness' Portfolio </strong></marquee></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -53,7 +62,13 @@
           <h2>About Me</h2>
           <p>
             I'm a multi-skilled Sotware Engineer with a passion for web development and application development, Graphic Design,Video Editng
-            and  an aspiring Machine learner. 
+            and  an aspiring Machine learner.
+            <p>Though I am still a student. I am open to exploring different branches in my field ,
+              and also working with emerging trends in the Tech field to help me know whhat is required 
+              in the industry.
+              With collaboration with Senior Web Deveps I am able to learn more and also undestand many things
+              in the Tech World.
+            </p> 
     
           </p>
           <div class="d-flex justify-content-between text-center mt-4">
@@ -83,12 +98,13 @@
         <div id="filters" class="btn-group mt-3">
           <button class="btn btn-outline-primary active" data-filter="all">All</button>
           <button class="btn btn-outline-primary" data-filter="video Editng">Video editing</button>
-          <button class="btn btn-outline-primary" data-filter="web">Web</button>
+          <button class="btn btn-outline-primary" data-filter="web">Web Development</button>
          <!-- <button class="btn btn-outline-primary" data-filter="marketing">Marketing</button>-->
           <button class="btn btn-outline-primary" data-filter="design">Design</button>
          <!-- <button class="btn btn-outline-primary" data-filter="ai">AI</button>-->
         </div>
       </div>
+      
       <div class="row g-4" id="projectGrid">
         <!-- Data Project -->
         <div class="col-md-6 col-lg-4 data">
@@ -160,6 +176,7 @@
   </section>
 
   <!-- Services Section -->
+   <!--
   <section class="py-5" id="services">
     <div class="container">
       <div class="text-center mb-5">
@@ -186,9 +203,27 @@
           <i class="bi bi-palette fs-1 text-success"></i>
           <h5 class="mt-3">Branding & Graphic Design</h5>
         </div>-->
-      </div>
+    <!--  </div>
     </div>
   </section>
+  -->
+  <!--Modal-->
+  <div class="container2">
+ <button type="submit" class="btn2" onclick="openPopup()"> Services</button> 
+ <div class="popup" id="popup">
+ <h2> My Services Include</h2>  
+  <i class="bi bi-palette fs-1 text-success"></i>
+          <h5 class="mt-3"> Graphic Design</h5>
+          <i class="bi bi-megaphone fs-1 text-success"></i>
+          <h5 class="mt-3">Video Editing</h5>
+            <i class="bi bi-laptop fs-1 text-success"></i>
+          <h5 class="mt-3">Web Development</h5>
+      
+    
+      
+ <button type="button" onclick="closePopup()">close</button>
+  </div>
+  </div>
 
   <!-- Contact Section -->
   <section class="bg-light py-5" id="contact">
@@ -226,18 +261,34 @@
     <div class="container">
       <p class="mb-2">Get in touch:</p>
       <div class="d-flex justify-content-center gap-3">
-        <a href="https://linkedin.com/in/your-profile" target="_blank" class="text-white text-decoration-none">
+        <a href="https://linkedin.com/in/Wirnkar Meekness" target="_blank" class="text-white text-decoration-none">
           <i class="bi bi-linkedin"></i> LinkedIn
         </a>
-        <a href="https://github.com/your-profile" target="_blank" class="text-white text-decoration-none">
+        <a href="https://github.com/Wirnkar Meekness" target="_blank" class="text-white text-decoration-none">
           <i class="bi bi-github"></i> GitHub
         </a>
-        <a href="mailto:wirnkarmeekness69@gmail.com" class="text-white text-decoration-none">
+       <!-- <a href="mailto:wirnkarmeekness69@gmail.com" class="text-white text-decoration-none">
           <i class="bi bi-envelope"></i> Email
-        </a>
-        <a href="https://wa.me/676866995" target="_blank" class="text-white text-decoration-none">
+        </a>-->
+        <a href="mailto:wirnkarmeekness69@gmail.com" class="text-white text-decoration-none">
+  <svg xmlns="http://www.w3.org/2000/svg" class="h-2 w-2 inline-block" viewBox="0 0 20 20" fill="currentColor">
+    <path d="M2.94 4.44A2 2 0 0 1 4.586 4h10.828a2 2 0 0 1 1.646.44L10 10.586 2.94 4.44z" />
+    <path d="M18 8.118V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V8.118l7.293 5.854a1 1 0 0 0 1.414 0L18 8.118z" />
+  </svg>
+  Email
+</a>
+
+      <!-- <a href="https://wa.me/237676866995" target="_blank" class="text-white text-decoration-none">
           <i class="bi bi-whatsapp"></i> WhatsApp
-        </a>
+        </a>--> 
+        
+<a href="https://wa.me/237676868695" target="_blank" class="text-white text-decoration-none">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+        <path d="M13.601 2.326A7.93 7.93 0 0 0 8.002 0C3.583 0 .002 3.582.002 8c0 1.4.364 2.767 1.054 3.975L0 16l4.145-1.036A7.982 7.982 0 0 0 8.002 16c4.418 0 7.999-3.582 7.999-8 0-2.137-.833-4.149-2.4-5.674zM8.002 14.507a6.472 6.472 0 0 1-3.32-.913l-.237-.14-2.461.616.656-2.404-.153-.247A6.51 6.51 0 0 1 1.507 8a6.493 6.493 0 0 1 6.495-6.493c1.737 0 3.37.676 4.599 1.905a6.472 6.472 0 0 1 1.905 4.588c0 3.58-2.918 6.507-6.504 6.507zm3.688-4.999c-.201-.1-1.194-.591-1.379-.659-.185-.068-.32-.1-.454.1-.135.198-.518.659-.635.795-.117.135-.234.152-.434.05-.201-.1-.849-.313-1.616-.996-.598-.532-1-1.186-1.117-1.387-.117-.2-.013-.308.088-.407.09-.09.201-.234.301-.351.1-.117.135-.2.201-.334.067-.134.034-.251-.017-.351-.05-.1-.454-1.092-.622-1.49-.164-.394-.332-.34-.454-.346h-.388c-.134 0-.351.05-.534.251-.184.2-.7.686-.7 1.672s.718 1.939.818 2.075c.1.134 1.418 2.168 3.44 3.038.482.208.857.332 1.15.425.483.142.923.122 1.27.074.387-.057 1.194-.487 1.36-.96.167-.474.167-.882.117-.96-.05-.075-.184-.117-.387-.217z"/>
+    </svg>
+    WhatsApp
+</a>
+
       </div>
       <p class="mt-3 small">&copy; 2025 Wirnkar Meekness. All rights reserved.</p>
     </div>
@@ -246,5 +297,15 @@
   <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script> -->
   <script src="js/bootstrap.bundle.min.js"></script>
   <script src="script.js"></script>
+  <!--Script for modal-->
+  <script>
+    let popup=document.getElementById("popup");
+    function openPopup(){
+      popup.classList.add("open-popup");
+    }
+     function closePopup(){
+      popup.classList.remove("open-popup");
+    }
+  </script>
 </body>
 </html>

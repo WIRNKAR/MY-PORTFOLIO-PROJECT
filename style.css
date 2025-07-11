@@ -10,6 +10,7 @@ body {
 
 h1, h2, h3, h4, h5 {
   font-weight: 700;
+  
 }
 
 section {
@@ -21,7 +22,7 @@ section {
 ====================== */
 .hero {
   height: 100vh;
-  background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+  background:black;
   color: white;
 }
 
@@ -178,3 +179,81 @@ footer .bi {
   background-color: #3b82f6;
 }
 
+.container2{
+  height: 50vh;
+  
+  
+  
+
+ /* display: flex;*/
+  align-items: center;
+  justify-content: center;
+}
+.btn2{
+  padding: 10px 60px;
+  background:black;
+  color:whitesmoke;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  font-size: 22px;
+  font-weight: 500px;
+  border-radius: 30px;
+ margin-left: 500px; 
+ margin-top: 129px;
+  
+}
+.popup{
+  width: 400px;
+  background:whitesmoke;
+  border-radius: 6px;
+  position: absolute;
+  buttom:0;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  padding: 0 30px 30px;
+  color: #333;
+  visibility: hidden;
+  transition: transform 0.4s;;
+}
+.open-popup{
+  visibility: visible;
+
+}
+.popup h2{
+  font-size: 38px;
+  font-weight: 500;
+  margin: 30px 0 10px;
+}
+.popup button{
+  width: 100%;
+  margin-top: 50px;
+  padding: 10px 0;
+  background: #089440;
+  color: #fff;
+  border: 0;
+  outline: none;
+  font-size: 18px;
+  border-radius: 4px;
+  cursor:pointer;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+.container{
+  
+}
+.nav-item{
+  
+  margin: 10px;
+  border-radius: 10px;
+  color:white;
+  padding: 5px;
+  text-align: center;
+  width: 100;
+}
+.nav-item a:hover{
+  background-color: rgba(85, 72, 72, 0.403);
+  border-radius: 10px;
+  padding: 10px;
+  transition: 0.4s;
+}
