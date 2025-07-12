@@ -199,13 +199,13 @@ footer .bi {
   font-size: 22px;
   font-weight: 500px;
   border-radius: 30px;
- margin-left: 500px; 
- margin-top: 129px;
+  margin-left: 400px;
+ margin-top: 100px;
   
 }
 .popup{
   width: 400px;
-  background:whitesmoke;
+  background:white;
   border-radius: 6px;
   position: absolute;
   buttom:0;
@@ -240,6 +240,7 @@ footer .bi {
   box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }
 .container{
+  
   
 }
 .nav-item{
